@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>TwitchPlaysTomodachi</title>
+
+            <link rel="stylesheet" href="css/reset.css" />
+            <link rel="stylesheet" href="css/style.css" />
+        </head>
+        <body>
+            <header>
+                <div class="brand">TwitchPlaysTomodachi<span>Remote</span></div>
+                <nav>
+                    <input type="text" size="60" placeholder="Text here" class="textContent" />
+                    <button class="chatText">Chat</button>
+                    <button class="writeText">Write Ingame (1.5s per character)</button>
+                </nav>
+            </header>
+
+            <main>
+                <div class="stream">
+                    <div class="iframe-overlay">
+                        <div class="bottom-screen"></div>
+                    </div>
+                    <div class="iframe-holder">
+                        <iframe
+                                src="https://player.twitch.tv/?channel=twitchplaystomodachi&autoplay=true&muted=false"
+                                class="main-stream"
+                                frameborder="0"
+                                allowfullscreen="false"></iframe>
+                    </div>
+                </div>
+                <div class="chat-holder">
+                    <div class="chat"></div>
+                </div>
+            </main>
+
+            <script src="js/app.js"></script>
+        </body>
+    </html>

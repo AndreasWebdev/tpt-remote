@@ -1,0 +1,17 @@
+{
+  "name": "tpt-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "try": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.1"
+  },
+  "dependencies": {
+    "twitch-js": "^1.2.17"
+  }
+}
