@@ -8,6 +8,7 @@ function createWindow () {
         resizable: false,
         maximizable: false});
     window.loadFile('app/index.html')
+	window.setMenu(null)
 }
 
 app.on('ready', createWindow);
